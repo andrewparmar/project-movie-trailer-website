@@ -12,19 +12,24 @@ main_page_head = '''
     <title>Fresh Tomatoes!</title>
 
     <!-- Bootstrap 3 -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            padding-top: 50px;
             /* background-color: #b0c4de;
             background-image: url("cinema.jpg"); */
             /*background-image: url('http://static.tumblr.com/9d0687c9c1d5fbe21ca6451f42051dc6/tqsudhr/QUTn19gtd/tumblr_static_massena01.jpg');*/
             /*background-image: url('http://wallpoper.com/images/00/43/29/02/film-camera_00432902.jpg');*/
-            background-image: url("images/cinema-minimalist.jpg");
+            /*background-image: url("images/cinema-minimalist.jpg");*/
+            background-image: url("images/film-camera.jpg");
             background-attachment: fixed;
             /* background-size: 100% 100%; */
         }
@@ -67,6 +72,31 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
+        }
+        #navbar-height {
+            min-height:50px;
+        }
+        #logo-height {
+            padding-top: 10px;
+            padding-botton: 10px;
+        }
+        .navbar-brand-height {
+            min-height: 31px;
+        }
+        #inner {
+            widht: 50%;
+            margin: auto;
+        }
+        .nav.nav-center {
+            display: inline-block;
+            left: 0;
+            right: 0;
+            margin:0;
+            float:none;
+        }
+
+        .navbar-inner{
+            text-align:center;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -116,16 +146,51 @@ main_page_content = '''
 
     <!-- Main Page Content -->
     <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img src="images/toma2-Color.svg" alt="My Logo">Fresh Tomatoes Movie Trailers</a>
-          </div>
-        </div>
-      </div>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="container">            
+            
+                <div class="navbar-inner">
+                      <div class="nav-center">
+                        <a id="logo-height" class="navbar-brand" href='/'><img src="images/toma2-Color.svg" alt="My Logo"></a>
+                      </div>
+                </div>                    
+
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                      <div class= "nav navbar-nav">                              
+                          <ul class="nav navbar-nav">
+                              <li>
+                                <a href="#"><strong style="font-family: Lato">Freshh 2ma2s!</strong></a>
+                              </li>
+                          </ul> <!-- end of navigation list -->
+                      </div>
+
+                      <ul class="nav navbar-nav pull-right">
+                        <li class="">
+                          <a href="#"><span class="glyphicon glyphicon-log-in"></span><strong> Login</strong></a>
+                        </li>                  
+                      </ul><!-- end of Login pull right-->
+                
+                </div> <!-- end nav-collapse -->
+
+                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                <button class="navbar-toggle" data-target".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                
+                </button><!-- end collapse button -->
+
+            </div> <!-- end navbar container -->
+
+        </div><!-- end navbar -->
+
     </div>
+
+
     <div class="container">
-      {movie_tiles}
+        <div><h1 style="text-align:center;font-family:Pacifico">Freshest Movie Trailers</h1></div>
+        {movie_tiles}
     </div>
   </body>
 </html>
@@ -159,6 +224,7 @@ def create_movie_tiles_content(movies):
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )
+    # print content
     return content
 
 

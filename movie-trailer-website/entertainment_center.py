@@ -14,13 +14,19 @@ lord_of_war = media.Movie("Lord of War","The best arms dealer in the world","htt
 
 snatch = media.Movie("Snatch","All about a priceless stolen diamond","http://ia.media-imdb.com/images/M/MV5BMTk5NzE0MDQyNl5BMl5BanBnXkFtZTcwNzk4Mjk3OA@@._V1_SY317_CR2,0,214,317_AL_.jpg","https://www.youtube.com/watch?v=ni4tEtuTccc", "102 min")
 
+gravity = media.Movie("Gravity","The Dangers of Space","http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SY317_CR0,0,214,317_AL_.jpg","https://www.youtube.com/watch?v=OiTiKOy59o4", "102 min")
 
-print toy_story.storyline
+back_to_the_future = media.Movie("BAck to the Future","Coolest Time Travel","http://ia.media-imdb.com/images/M/MV5BMjA5NTYzMDMyM15BMl5BanBnXkFtZTgwNjU3NDU2MTE@._V1_SX214_AL_.jpg","https://www.youtube.com/watch?v=qvsgGtivCgs", "116 min")
+
+oldboy = media.Movie("Oldboy","Twisted","http://ia.media-imdb.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SY317_CR0,0,214,317_AL_.jpg","https://www.youtube.com/watch?v=2HkjrJ6IK5E", "116 min")
+
+
+# print toy_story.storyline
 # toy_story.show_trailer()
 
 # snatch.show_trailer()
 print media.Movie.__name__
-print media.Movie.__module__
+print media.Movie.__module__ 
 
-movies = (toy_story, man_from_earth, reservoir_dogs, full_metal_jacekt, lord_of_war, snatch)
+movies = (toy_story, man_from_earth, reservoir_dogs, full_metal_jacekt, lord_of_war, snatch, gravity, back_to_the_future, oldboy)
 fresh_tomatoes.open_movies_page(movies)
