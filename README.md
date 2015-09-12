@@ -1,1 +1,1 @@
-# udacity-full-stack
+# Udacity Movie Trailer Website Project
