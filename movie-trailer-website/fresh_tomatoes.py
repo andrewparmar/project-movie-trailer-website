@@ -10,11 +10,9 @@ main_page_head = '''
 <head>
     <meta charset="utf-8">
     <title>Fresh Tomatoes!</title>
-
     <!-- Bootstrap 3 -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -94,7 +92,6 @@ main_page_head = '''
             margin:0;
             float:none;
         }
-
         .navbar-inner{
             text-align:center;
         }
@@ -143,12 +140,9 @@ main_page_content = '''
         </div>
       </div>
     </div>
-
     <!-- Main Page Content -->
     <div class="container">
-
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-
             <div class="container">            
             
                 <div class="navbar-inner">
@@ -156,7 +150,6 @@ main_page_content = '''
                         <a id="logo-height" class="navbar-brand" href='/'><img src="images/toma2-Color.svg" alt="My Logo"></a>
                       </div>
                 </div>                    
-
                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                       <div class= "nav navbar-nav">                              
                           <ul class="nav navbar-nav">
@@ -165,7 +158,6 @@ main_page_content = '''
                               </li>
                           </ul> <!-- end of navigation list -->
                       </div>
-
                       <ul class="nav navbar-nav pull-right">
                         <li class="">
                           <a href="#"><span class="glyphicon glyphicon-log-in"></span><strong> Login</strong></a>
@@ -173,21 +165,15 @@ main_page_content = '''
                       </ul><!-- end of Login pull right-->
                 
                 </div> <!-- end nav-collapse -->
-
                 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
                 <button class="navbar-toggle" data-target".navbar-responsive-collapse" data-toggle="collapse" type="button">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>                
                 </button><!-- end collapse button -->
-
             </div> <!-- end navbar container -->
-
         </div><!-- end navbar -->
-
     </div>
-
-
     <div class="container">
         <div><h1 style="text-align:center;font-family:Pacifico">Freshest Movie Trailers</h1></div>
         {movie_tiles}

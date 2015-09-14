@@ -16,7 +16,7 @@ snatch = media.Movie("Snatch","All about a priceless stolen diamond","http://ia.
 
 gravity = media.Movie("Gravity","The Dangers of Space","http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SY317_CR0,0,214,317_AL_.jpg","https://www.youtube.com/watch?v=OiTiKOy59o4", "102 min")
 
-back_to_the_future = media.Movie("BAck to the Future","Coolest Time Travel","http://ia.media-imdb.com/images/M/MV5BMjA5NTYzMDMyM15BMl5BanBnXkFtZTgwNjU3NDU2MTE@._V1_SX214_AL_.jpg","https://www.youtube.com/watch?v=qvsgGtivCgs", "116 min")
+back_to_the_future = media.Movie("Back to the Future","Coolest Time Travel","http://ia.media-imdb.com/images/M/MV5BMjA5NTYzMDMyM15BMl5BanBnXkFtZTgwNjU3NDU2MTE@._V1_SX214_AL_.jpg","https://www.youtube.com/watch?v=qvsgGtivCgs", "116 min")
 
 oldboy = media.Movie("Oldboy","Twisted","http://ia.media-imdb.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SY317_CR0,0,214,317_AL_.jpg","https://www.youtube.com/watch?v=2HkjrJ6IK5E", "116 min")
 
