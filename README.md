@@ -24,5 +24,6 @@ How do I change how the website looks?
 --------------------------------------
 
 To change the look and feel of the website, change the html snippets in fresh_tomatoes.py
+The framework used is Bootstrap so maintain Bootstrap convention to keep everything looking neat.
 
 NOTE: Changing the fresh_tomatoes.html file is wawsted effort as the python application will generatea and replace the fresh_tomatoes.html file each time it is run.
