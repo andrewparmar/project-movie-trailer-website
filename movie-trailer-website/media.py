@@ -16,6 +16,8 @@ __email__ = "andrew.parmar@xyz.com"
 __status__ = "Prototype"
 
 
+# Creating media classes.
+
 class Video:
 
     """ This parent class supports the child classes (Movie and TvShow)
