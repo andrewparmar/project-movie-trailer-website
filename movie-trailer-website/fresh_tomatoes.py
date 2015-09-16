@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-''' Create movies and store relevant movie information.
+''' Create webpage from a list of movies
 
-This file allows the developer to create instances of movies and 
-store metadata against each listing. The module fresh_tomatoes is
-used to generate the final html page. 
+This module takes a list of movies, and generate and opens an html page
+showing the list of movies in a grid format. The list of movies are instances of 
+the class Movie as defined in the module Media.
 
 '''
 
@@ -12,7 +12,7 @@ import webbrowser
 import os
 import re
 
-__author__ = "Andrew Parmar"
+__author__ = "Udacity"
 __maintainer__ = "Andrew Parmar"
 __email__ = "andrew.parmar@xyz.com"
 __status__ = "Prototype"
