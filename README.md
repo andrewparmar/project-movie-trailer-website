@@ -18,3 +18,11 @@ Quick usage:
 3. A browser should open and display your movie listings as a grid of movie posters.
 4. Click on a movie poster to view the trailer.
 5. Turn up the volume and Enjoy!
+
+
+Changing the look and feel
+-------------------------
+
+To change the look and feel of the website, change the html snippets in fresh_tomatoes.py
+
+NOTE: Changing the fresh_tomatoes.html file is wawsted effort as the python application will generatea and replace the fresh_tomatoes.html file each time it is run.
