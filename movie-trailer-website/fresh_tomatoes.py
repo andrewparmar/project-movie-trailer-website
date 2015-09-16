@@ -1,6 +1,21 @@
+#!/usr/bin/env python
+
+''' Create movies and store relevant movie information.
+
+This file allows the developer to create instances of movies and 
+store metadata against each listing. The module fresh_tomatoes is
+used to generate the final html page. 
+
+'''
+
 import webbrowser
 import os
 import re
+
+__author__ = "Andrew Parmar"
+__maintainer__ = "Andrew Parmar"
+__email__ = "andrew.parmar@xyz.com"
+__status__ = "Prototype"
 
 
 # Styles and scripting for the page
