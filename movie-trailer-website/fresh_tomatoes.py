@@ -3,8 +3,9 @@
 ''' Create webpage from a list of movies
 
 This module takes a list of movies, and generate and opens an html page
-showing the list of movies in a grid format. The list of movies are instances of 
-the class Movie as defined in the module Media.
+showing the list of movies in a grid format. The list of movies are instances
+of the class Movie as defined in the module Media. This module is called in
+entertainment_center.py
 
 '''
 
