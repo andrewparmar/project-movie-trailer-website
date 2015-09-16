@@ -17,7 +17,7 @@ Quick usage:
 	- Save entertainment_center.py and Run in IDE or on CLI via `python entertainment_center.py`
 3. A browser should open and display your movie listings as a grid of movie posters.
 4. Click on a movie poster to view the trailer.
-5. Turn up the volume and Enjoy!
+5. Turn up the volume and Enjoy! :movie_camera:
 
 
 How do I change how the website looks?
