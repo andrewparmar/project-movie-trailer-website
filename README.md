@@ -20,8 +20,8 @@ Quick usage:
 5. Turn up the volume and Enjoy!
 
 
-Changing the look and feel
--------------------------
+How do I change how the website looks?
+--------------------------------------
 
 To change the look and feel of the website, change the html snippets in fresh_tomatoes.py
 
